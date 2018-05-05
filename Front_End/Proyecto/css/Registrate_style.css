@@ -44,19 +44,19 @@ body {
 h1.w3layouts {
     text-align: center;
 	font-size: 4.2em;
-    color: #fff;
+    color: #13007D;
     margin: 37px 0;
     font-family: 'Tangerine', cursive;
     letter-spacing: 2px;
     float: right;
     width: 52%;
 	font-weight: bold;
-	text-shadow: 1px 1px 11px rgba(12, 12, 12, 0.75);
+	text-shadow: 1px 1px 4px rgba(12, 12, 12, 0.75);
 }
 /*-- form --*/
 .content-w3ls {
     width: 41%;
-    background-color: rgba(0, 0, 0, 0.71);
+    background-color: rgba(0, 0, 0, 0);
     float: right;
     margin-right: 5em;
 }
@@ -65,16 +65,23 @@ h1.w3layouts {
 }
 .agile_form input[type=text], .agile_form input[type=email], .section_class_agileits select{
     padding: 10px;
-    color: #5d5c5c;
+    color: #fff;
+    opacity: 1;
     font-size: .9em;
     outline: none;
     border: none;
-    background: #fff;
-    width: 95%;
+    background: #002FDA;
+    opacity: 0.7;
+    width: 96%;
     font-family: 'Hind Siliguri', sans-serif;
     letter-spacing: 1px;
-    border: 3px double #03A9F4;
-    border-radius: 4px;
+    border: 0px double #03A9F4;
+    border-radius: 0px;
+    text-decoration-color: #fff;
+}
+::placeholder{
+	color: #fff;
+	opacity: 0.6;
 }
 .section_class_agileits select{
 	width:100%;
@@ -92,7 +99,7 @@ h1.w3layouts {
     letter-spacing: 1px;
     cursor: pointer;
     border: none;
-    background: #03A9F4;
+    background: navy;
     outline: none;
     margin: 1.5em 0 0;
     border: none;
@@ -102,10 +109,11 @@ h1.w3layouts {
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     text-align: center;
+    width: 100%;
 }
 .submit-w3l input[type=submit]:hover {
-    background: #fff;
-    color: #000;
+    background: #7D010B;
+    color: #fff;
 }
 /*-- //form --*/
 /*-- copyright --*/
