@@ -1,0 +1,18 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: [example.com] Please Confirm Your E-mail Address
+From: webmaster@localhost
+To: m.danielabap@gmail.com
+Date: Mon, 07 May 2018 19:37:35 -0000
+Message-ID: <20180507193735.7187.75986@daniela-baptista>
+
+Hello from example.com!
+
+You're receiving this e-mail because user m.danielabap has given yours as an e-mail address to connect their account.
+
+To confirm this is correct, go to http://127.0.0.1:8000/accounts/confirm-email/MQ:1fFlx1:dKB6OLJJtiV9VyjWLyHTHj1x4nk/
+
+Thank you from example.com!
+127.0.0.1
+-------------------------------------------------------------------------------
