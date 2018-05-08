@@ -39,11 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
 
-    'allauth', # new
-    'allauth.account', # new
-    'allauth.socialaccount', # new
-    'allauth.socialaccount.providers.google', # new
+    #logeo con redes sociales (gmail)
+    #'allauth', # new
+    #'allauth.account', # new
+    #'allauth.socialaccount', # new
+    #'allauth.socialaccount.providers.google', # new
 
+    'shopping',
     'pages',
     'users',  
 ]
@@ -132,17 +134,17 @@ USE_TZ = True
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 
-STATIC_URL = '/static/'
-
-AUTHENTICATION_BACKENDS = (
-    "django.contrib.auth.backends.ModelBackend",
-    "allauth.account.auth_backends.AuthenticationBackend",
-)
-
-SITE_ID = 1
-
-ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_USERNAME_REQUIRED = False
-
 EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
+STATIC_URL = '/static/'
+
+#AUTHENTICATION_BACKENDS = (
+  #  "django.contrib.auth.backends.ModelBackend",
+   # "allauth.account.auth_backends.AuthenticationBackend",
+#)
+
+#SITE_ID = 1
+
+#ACCOUNT_EMAIL_REQUIRED = True
+#ACCOUNT_USERNAME_REQUIRED = False
+

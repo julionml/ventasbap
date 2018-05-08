@@ -1,13 +1,15 @@
 
+{% extends 'base.html' %}
 
-{% load socialaccount %}
+{% block title %}Ventasbap tienda virtual{% endblock %}
 
-<h1>Ventasbap tienda virtual</h1>
+{% block content %}
 {% if user.is_authenticated %}
-<p>Welcome {{ user.username }} !!!</p>
-<p><a href="{% url 'account_logout' %}">Log out</a>
+  Hi {{ user.username }}!
+  <p><a href="{% url 'logout' %}">logout</a></p>
 {% else %}
-<p><a href="{% url 'account_signup' %}">Sign Up</a></p>
-<p><a href="{% url 'account_login' %}">Log In </a></p>
-<p><a href="{% provider_login_url 'google' %}">Log In with Gmail</a></p>
+  <p>Ventasbap tienda virtual</p>
+  <a href="{% url 'login' %}">login</a> |
+  <a href="{% url 'signup' %}">signup</a>
 {% endif %}
+{% endblock %}
