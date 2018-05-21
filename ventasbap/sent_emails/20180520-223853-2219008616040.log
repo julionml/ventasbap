@@ -1,0 +1,18 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: [example.com] Please Confirm Your E-mail Address
+From: webmaster@localhost
+To: javiermerida05@gmail.com
+Date: Mon, 21 May 2018 02:38:54 -0000
+Message-ID: <152687033401.240.14750156367821014489@JavierPC>
+
+Hello from example.com!
+
+You're receiving this e-mail because user javiermerida05 has given yours as an e-mail address to connect their account.
+
+To confirm this is correct, go to http://127.0.0.1:8000/accounts/confirm-email/Mg:1fKair:rZh0STWnqiZ0vuyN-Z82ktxhXHY/
+
+Thank you from example.com!
+127.0.0.1
+-------------------------------------------------------------------------------
